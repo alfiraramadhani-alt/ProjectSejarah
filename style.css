@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,17 @@ nav a {
 .section {
   padding: 50px 20px;
   text-align: center;
+}
+
+.tombol {
+  margin-top: 10px;
+  background-color: #111;
+  color:#f4f4f4;
+  border-radius: 15px;
+   padding: 10px 12px;
+}
+.tombol:hover {
+  background-color: rgb(66, 65, 65);
 }
 
 .card-container {
@@ -111,3 +123,4 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
