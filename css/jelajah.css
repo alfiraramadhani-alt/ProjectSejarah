@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(to bottom, #0e2564, #7c91cd, #cd7878, #9e0101);
+  min-height: 100vh;
+}
+
+.jelajah-section{
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* TITLE */
+.title{
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-shadow:
+    0 0 15px rgba(255,255,255,0.3),
+    0 0 30px rgba(0,0,0,0.4);
+}
+
+.subtitle{
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 1.8;
+  font-size: 17px;
+  color: #f1f1f1;
+}
+
+/* CARD CONTAINER */
+.jelajah-container{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+/* CARD */
+.jelajah-card{
+  background: rgba(255,255,255,0.95);
+  width: 320px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  transition: 0.4s;
+  color: #333;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jelajah-card .btn{
+  margin-top: auto;
+}
+
+.jelajah-card:hover{
+  transform: translateY(-12px) scale(1.03);
+}
+
+/* WARNA KHUSUS MALAHAYATI */
+.jelajah-card:first-child h2{
+  color: #0e2564;
+}
+
+.jelajah-card:first-child ul li::before{
+  color: #0e2564;
+}
+
+/* BUTTON MALAHAYATI */
+.jelajah-card:first-child .btn{
+  background: linear-gradient(45deg, #041543, #123186);
+}
+
+.jelajah-card:first-child .btn:hover{
+  background: linear-gradient(45deg, #091e5a, #2a58e4);
+  box-shadow: 0 0 20px rgba(9, 47, 109, 0.7);
+}
+
+
+/* WARNA KHUSUS MARTHA */
+.jelajah-card:last-child h2{
+  color: #8d0d0d;
+}
+
+.jelajah-card:last-child ul li::before{
+  color: #8d0d0d;
+}
+
+/* BUTTON MARTHA */
+.jelajah-card:last-child .btn{
+  background: linear-gradient(45deg, #450606, #841212);
+}
+
+.jelajah-card:last-child .btn:hover{
+  background: linear-gradient(45deg, #6c0f0f, #DC2626);
+  box-shadow: 0 0 20px rgba(233, 50, 50, 0.7);
+}
+
+/* IMAGE */
+.jelajah-card img{
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+
+.jelajah-card img:hover{
+  transform: scale(1.04);
+}
+
+/* HEADING */
+.jelajah-card h2{
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+/* TEXT */
+.jelajah-card p{
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+
+/* LIST */
+.jelajah-card ul{
+  list-style: none;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.jelajah-card ul li{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.jelajah-card ul li::before{
+  content: "✦";
+  margin-right: 8px;
+}
+
+/* BUTTON */
+.btn{
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn:hover{
+  transform: scale(1.08);
+}
+
+/* BACK BUTTON */
+.back-btn{
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.back-btn:hover{
+  transform: scale(1.08);
+  background: white;
+  color: black;
+}
+
+
+/* QUOTES & FUNFACT */
+.quotes,
+.funfact{
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+  transition: all 0.3s ease;
+}
+
+.quotes:hover,
+.funfact:hover{
+  transform: scale(1.03) translateY(-5px);
+
+  box-shadow:
+    0 15px 35px rgba(0,0,0,0.3),
+    0 0 20px rgba(255,255,255,0.2);
+}
+
+.quotes h3,
+.funfact h3{
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.quotes p,
+.funfact p{
+  line-height: 1.8;
+  color: #f4f4f4;
+}
+
+/* BACK BUTTON */
+.back-btn{
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 25px;
+  background: rgb(65, 4, 4);
+  color: #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.back-btn:hover{
+  transform: scale(1.08);
+  background: #08246f;
+  color: #c8d1e9;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+
+  .title{
+    font-size: 32px;
+  }
+
+  .subtitle{
+    font-size: 15px;
+  }
+
+  .jelajah-card{
+    width: 100%;
+    max-width: 350px;
+  }
+
+
+  
+}

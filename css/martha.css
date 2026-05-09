@@ -9,7 +9,7 @@ body{
 .martha-section {
   padding: 60px 20px;
   text-align: center;
-  background: linear-gradient(to bottom, #DC2626, #ffffff); /* MERAH */
+  background: linear-gradient(to bottom, #9e0101, #cd7878); /* MERAH */
   color: #333;
 }
 
@@ -48,7 +48,7 @@ body{
 }
 
 .card {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 20px;
   width: 250px;
   border-radius: 15px;
@@ -62,7 +62,12 @@ body{
 }
 
 .card h3 {
-  color: #DC2626;
+  color: #6d0f0f;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .timeline {
@@ -70,7 +75,7 @@ body{
   max-width: 700px;
   margin: 40px auto;
   padding-left: 20px;
-  border-left: 3px solid #DC2626; /* MERAH */
+  border-left: 3px solid #ad0c0c; /* MERAH */
 }
 
 .timeline-item {
@@ -91,7 +96,7 @@ body{
   top: 5px;
   width: 18px;
   height: 18px;
-  background: #DC2626; /* MERAH */
+  background: #940606; 
   border-radius: 50%;
 }
 
@@ -108,8 +113,8 @@ body{
 }
 
 .timeline-item h4 {
-  margin-bottom: 5px;
-  color: #DC2626; /* MERAH */
+  margin-bottom: 1px;
+  color: #6d0f0f; 
 }
 
 /* ANIMASI */
@@ -124,7 +129,7 @@ body{
   display: inline-block;
   margin-top: 25px;
   padding: 12px 25px;
-  background: linear-gradient(45deg, #DC2626, #7f1d1d); /* MERAH */
+  background: linear-gradient(45deg, #450606, #841212); /* MERAH */
   color: white;
   border-radius: 30px;
   text-decoration: none;
@@ -136,8 +141,8 @@ body{
 
 .btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(220,38,38,0.7);
-  background: linear-gradient(45deg, #7f1d1d, #DC2626);
+  box-shadow: 0 0 20px rgba(233, 50, 50, 0.7);
+  background: linear-gradient(45deg, #6c0f0f, #DC2626);
 }
 
 .btn:active {
